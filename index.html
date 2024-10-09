@@ -27,45 +27,26 @@
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 Sidebar">
           <!-- Changed bg-dark to bg-white -->
           <div
-            class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 min-vh-100"
+            class="d-flex flex-column align-items-center align-items-sm-end px-3 pt-2 min-vh-100"
           >
             <ul
               class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center"
               id="menu"
             >
-              <li class="nav-item">
-                <button class="nav-link align-middle px-0">
-                  <i class="fs-4 bi-house"></i>
-                  <span class="ms-1 d-none d-sm-inline bar-buttons"
-                    >כלי כתיבה</span
-                  >
-                </button>
-              </li>
-              <li>
-                <button href="#" class="nav-link px-0 align-middle">
-                  <i class="fs-4 bi-table"></i>
-                  <span class="ms-1 d-none d-sm-inline bar-buttons"
-                    >מחברות</span
-                  >
-                </button>
-              </li>
-              <li>
-                <button href="#" class="nav-link px-0 align-middle">
-                  <i class="fs-4 bi-table"></i>
-                  <span class="ms-1 d-none d-sm-inline bar-buttons"
-                    >מחברות Campus</span
-                  >
-                </button>
-              </li>
-              <li>
-                <button href="#" class="nav-link px-0 align-middle">
-                  <i class="fs-4 bi-table"></i>
-                  <span class="ms-1 d-none d-sm-inline bar-buttons"
-                    >צבעים ויצירה</span
-                  >
-                </button>
-              </li>
+            <li class="nav-item mb-3">
+              <button onclick="chooseCategory('Gcraft')" id="craft" class="nav-link align-middle px-0 buttons">
+                <i class="fs-4 bi-house"></i>
+                <span class="ms-1 d-none d-sm-inline bar-buttons span">כלי כתיבה</span>
+              </button>
+            </li>
+            <li class="mb-3">
+              <button onclick="chooseCategory('notebook')" id="note" class="nav-link px-0 align-middle chosen buttons">
+                <i class="fs-4 bi-table"></i>
+                <span class="ms-1 d-none d-sm-inline bar-buttons span">מחברות</span>
+              </button>
+            </li>
             </ul>
+
             <hr />
           </div>
         </div>
