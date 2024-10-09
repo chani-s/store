@@ -1,3 +1,5 @@
+
+
 const getProduct = (product) => {
     return `
     <div class = "product">
