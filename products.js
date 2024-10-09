@@ -1,5 +1,5 @@
 
-export const notebooks = [
+const Gnotebooks = [
     {
         catalogId: 82,
         title: "ספירלה 2 נושא שורות - 1יח",
@@ -121,7 +121,7 @@ export const notebooks = [
     },
 ]
 
-export const craft = [
+const Gcraft = [
     {
         catalogId: 86,
         title: "מארז תיכוניסטים/יות",

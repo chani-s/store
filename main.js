@@ -1,3 +1,5 @@
 function main() {
-    console.log(renderProducts(Gnotebooks[0]))
+    console.log(renderProducts(Gnotebooks))
 }
+
+main();
