@@ -1,6 +1,20 @@
 .prod-area {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    gap: 20px; 
-    padding: 20px;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+.Sidebar {
+  background-color: #ffffff;
+  padding: 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  border: #e9e9e9;
+  border-style: solid;
+  border-width: 1px;
+}
+.bar-buttons {
+  color: #000000;
+  align: right;
+}
