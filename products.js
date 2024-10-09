@@ -32,28 +32,28 @@ const Gnotebooks = [
         catalogId: 4,
         title: "מארז 5 מחברת שורות - רגילה",
         price: 6.5,
-        image: "./imgs/craft/19.jpg",
+        image: "./imgs/notebooks/19.jpg",
         tags: ["rows", "a5"]
     },
     {
         catalogId: 5,
         title: "מארז 5 מחברת שורות - 10 שורות",
         price: 7.5,
-        image: "./imgs/craft/19.jpg",
+        image: "./imgs/notebooks/19.jpg",
         tags: ["rows", "a5", "10rows"]
     },
     {
         catalogId: 6,
         title: "מארז 5 מחברת שורות - 14 שורות",
         price: 7.5,
-        image: "./imgs/craft/19.jpg",
+        image: "./imgs/notebooks/19.jpg",
         tags: ["rows", "a5", "10rows"]
     },
     {
         catalogId: 7,
         title: "מארז 5 מחברת משבצות",
         price: 7.5,
-        image: "./imgs/craft/19.jpg",
+        image: "./imgs/notebooks/19.jpg",
         tags: ["squares", "a5"]
     },
     {
@@ -88,7 +88,7 @@ const Gnotebooks = [
         catalogId: 12,
         title: "מארז 8 דפדפת שורות",
         price: 17.9,
-        image: "./imgs/craft/37.jpg",
+        image: "./imgs/notebooks/37.jpg",
         tags: ["rows", "a4"]
     },
     {
@@ -392,6 +392,6 @@ const Gcraft = [
         catalogId: 81,
         title: "מארז 4 סוללות AA",
         price: 9.90,
-        image: "./imgs/elec/02.webp",
+        image: "./imgs/craft/02.webp",
     },
 ]
