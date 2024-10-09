@@ -3,9 +3,9 @@
 const getProduct = (product) => {
     return `
     <div class = "product">
-    <h2>${product.title}</h2>
-    <p>${product.price}</p>
+    <p class="ptitle">${product.title}</p>
     <img src="${product.image}" alt="${product.title}">
+    <p class="price"> ₪${product.price}</p>
     </div>`;
 }
 
