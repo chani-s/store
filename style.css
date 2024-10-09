@@ -1,3 +1,9 @@
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+}
+
 .product {
     height: 285px;
     margin-top: 20px;
@@ -11,6 +17,14 @@
     overflow: hidden;
     border: 1px solid #eaecee;
     border-top: 3px solid #eadeee
+}
+
+h1 {
+    font-size: 2.7rem;
+    word-spacing: .5rem;
+    letter-spacing: .07rem;
+    font-family: Amatic, sans-serif;
+    color: var(--text-dark)
 }
 
 .ptitle {
@@ -29,7 +43,7 @@ img {
     object-fit: cover
 }
 
-.price{
+.price {
     text-align: right;
     font-size: 1rem;
     font-weight: 500;
