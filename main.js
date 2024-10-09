@@ -10,10 +10,14 @@ function chooseCategory(category) {
         renderProducts(Gnotebooks);
         var button=document.getElementById('note');
         button.classList.add('chosen');
+        var title=document.getElementById('title');
+        title.innerHTML="מחברות";
     } else {
         renderProducts(Gcraft);
         var button1=document.getElementById('craft');
         button1.classList.add('chosen');
+        var title=document.getElementById('title');
+        title.innerHTML="כלי כתיבה";
     }
 }
 main();
